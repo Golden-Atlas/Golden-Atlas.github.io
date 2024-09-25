@@ -3,77 +3,75 @@
     border: 5px dotted #ff69b4; 
     padding: 20px;
     font-size: 1.2em;
-    animation: spin 3s linear infinite;
 }
 
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
 
 .skills {
     background-color: #98fb98; 
     border: 3px dashed #00ff00; 
     padding: 20px;
     font-size: 1.2em;
-    animation: scale 2s infinite;
 }
 
-@keyframes scale {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-}
+
+/*Projects Styling*/
 
 .projects {
     background-color: #f0e68c; 
     border: 4px solid #ffd700; 
     padding: 20px;
-    font-size: 1.2em;
-    animation: flash 1s infinite;
+    font-size: 1em;
 }
 
-@keyframes flash {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.5;
-    }
+.project {
+    display: flex;
+    flex-wrap:wrap;
+    width: 30%;
+    margin: 10px;
+    padding: 20px 10px;
+    background: #bd52e1;
+    border-radius: 25%;
 }
+
+.project h3 {
+    margin: 15px;
+    text-align: center;
+    font-style: italic;
+}
+
+.project img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid;
+    display: block;
+    margin: auto;
+}
+
+.project img:hover{
+    border: 2px solid white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.project a:hover{
+    color: white;
+}
+
+.project p {
+    text-align: center;
+    margin: 15px;
+}
+
+
+
 
 .contact {
     background-color: #dcdcdc; 
     border: 2px solid #a9a9a9; 
     padding: 20px;
     font-size: 1.2em;
-    animation: wobble 2s infinite;
 }
 
-@keyframes wobble {
-    0%, 100% {
-        transform: rotate(0deg);
-    }
-    15% {
-        transform: rotate(3deg);
-    }
-    30% {
-        transform: rotate(-3deg);
-    }
-    45% {
-        transform: rotate(3deg);
-    }
-    60% {
-        transform: rotate(-3deg);
-    }
-    75% {
-        transform: rotate(3deg);
-    }
-}
