@@ -5,6 +5,16 @@
     font-size: 1.2em;
 }
 
+.statement {
+    background-color: #d3d3f4;
+    border: 4px double #4b0082;
+    padding: 20px;
+    font-size: 1.2em;
+    margin: 20px 0;
+    text-align: center;
+}
+
+
 
 .skills {
     background-color: #98fb98; 
