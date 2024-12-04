@@ -1,54 +1,126 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>CSCE 190: Kai Watts</title>
-        <link rel="Stylesheet" href="styles.css" />
-    </head>
-    <body>
-        <h1>Kai Watts</h1>
-        
-        <div class="about"><h2>About Me</h2></div>
-        <section class="statement">
-            <p>My personal mission is to leverage my computer science skills and my dedication to knowledge to advance the field of aerospace technology. As I work through college, my goal is to gain hands-on experience and the knowledge required to prepare for a future where I can contribute to groundbreaking projects and eventually bring humanity to the new space-age. I am driven by a passion for exploration, innovation, and the belief that technology will, and can, help us unlock the mysteries of space and allow our children, and theirs forevermore, to not only see, but touch upon the stars themselves.</p>
-            
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSCE 190: Kai Watts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kai Watts</h1>
+            <p class="subtitle">Aspiring Aerospace Technologist & Computer Scientist</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>My personal mission is to leverage my computer science skills and my dedication to knowledge to advance the field of aerospace technology. As I work through college, my goal is to gain hands-on experience and the knowledge required to prepare for a future where I can contribute to groundbreaking projects and eventually bring humanity to the new space-age. I am driven by a passion for exploration, innovation, and the belief that technology will, and can, help us unlock the mysteries of space and allow our children, and theirs forevermore, to not only see, but touch upon the stars themselves.            </p>
         </section>
 
-        <div class="skills"><h2>Skills</h2></div>
-
-        <div class="projects"><h2>Highlighted projects</h2></div>
-        <!-- Problem Statement Project  --> 
-         <section class="project">
-            <a href="files/problem_statement.pdf"><h3>Problem Statement</h3></a>
-            <a href="files/problem_statement.pdf"><img src="images/statement.png"></a>
-            <p>Making grocery lists based on planned near-future meals is tiresome and time-consuming. </p>
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li>Writing and Editing Skills</li>
+                <li>Proficiency in Written and Verbal Communication</li>
+                <li>Customer Relationship Management</li>
+                <li>Patience and Empathy</li>
+                <li>Problem-Solving and Conflict Resolution</li>
+                <li>Active Listening</li>
+                <li>Customer Satisfaction</li>
+                <li>Adaptability in Learning New Technologies</li>
+                <li>Ability to Work Well Under Pressure</li>
+                <li>Time Management and Organization</li>
+                <li>Data and Statistical Analysis</li>
+                <li>Critical Thinking</li>
+                <li>Creative Problem-Solving</li>
+                <li>Project, Team, and Time Management</li>
+                <li>Presentation and Negotiation Skills</li>
+                <li>Proficient in Python Coding</li>
+                <li>Data Analysis and Visualization (Excel, Google Sheets)</li>
+                <li>Sales Strategy</li>
+            </ul>
         </section>
 
-        <!--Affinity Diagram Assignment-->
-        <section class="project">
-            <a href="files/AffinityIMG.pdf"><h3>Affinity Diagram</h3></a>
-            <a href="files/AffinityIMG.pdf"><img src="images/AffinityIMG.png"></a>
-            <p>I went through the Problem Statement project and listed all the necessary plans for the app.</p>
-        </section>
-        
-        <!--Paper Project Assignment -->
-        <section class="project">
-            <a href="files/sketches.pdf"><h3>Sketches of Project</h3></a>
-            <a href="files/sketches.pdf"><img src="images/sketches.png"></a>
-            <p>Based on the previously created sketches, I made a paper prototype to display how the app would work.</p>
+        <section id="projects" class="projects">
+            <h2>Highlighted Projects</h2>
+            <div class="project-grid">
+                <!-- Problem Statement -->
+                <div class="project">
+                    <a href="files/problem_statement.pdf">
+                        <img src="images/statement.png" alt="Problem Statement">
+                        <h3>Problem Statement</h3>
+                    </a>
+                    <p>Making grocery lists based on planned near-future meals is tiresome and time-consuming.</p>
+                </div>
+
+                <!-- Affinity Diagram -->
+                <div class="project">
+                    <a href="files/AffinityIMG.pdf">
+                        <img src="images/AffinityIMG.png" alt="Affinity Diagram">
+                        <h3>Affinity Diagram</h3>
+                    </a>
+                    <p>I went through the Problem Statement project and listed all the necessary plans for the app.</p>
+                </div>
+
+                <!-- Sketches -->
+                <div class="project">
+                    <a href="files/sketches.pdf">
+                        <img src="images/sketches.png" alt="Sketches">
+                        <h3>Sketches of Project</h3>
+                    </a>
+                    <p>Based on previously created sketches, I made a paper prototype to display how the app would work.</p>
+                </div>
+
+                <!-- Resume -->
+                <div class="project">
+                    <a href="files/resume.pdf">
+                        <img src="images/resume.png" alt="Resume">
+                        <h3>Resume</h3>
+                    </a>
+                    <p>My finalized resume as of 11/20/2024.</p>
+                </div>
+
+                <!-- Blackjack -->
+                <div class="project">
+                    <a href="https://github.com/Golden-Atlas/SingleUserBlackjack">
+                        <img src="images/blackjack.png" alt="Blackjack">
+                        <h3>Single-Player Blackjack</h3>
+                    </a>
+                </div>
+            </div>
         </section>
 
-        <!--Resume Assignment -->
-        <section class="project">
-            <a href="files/resume.pdf"><h3>Resume</h3></a>
-            <a href="files/resume.pdf"><img src="images/resume.png"></a>
-            <p>My finalized resume as of 11/20/2024.</p>
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:wattskt@email.sc.edu">wattskt@email.sc.edu</a></p>
+            <p>GitHub: <a href="https://github.com/Golden-Atlas" target="_blank">Golden-Atlas</a></p>
         </section>
+    </main>
 
-        <!--Single-Player Blackjack Project -->
-        <section class="project">
-            <a href="https://github.com/Golden-Atlas/SingleUserBlackjack"><h3>Single-Player Blackjack</h3></a>
-            <a href="https://github.com/Golden-Atlas/SingleUserBlackjack"><img src="images/blackjack.png"></a>
-        </section>
-        <div class="contact"><h2>Contact me</h2></div>
-    </body>
+    <footer>
+        <p>&copy; 2024 Kai Watts. All rights reserved.</p>
+    </footer>
+</body>
 </html>
+
+
+
+
+
+
+
+
+
